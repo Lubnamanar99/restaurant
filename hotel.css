@@ -1,0 +1,464 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Climate+Crisis&family=Lobster&family=Mynerve&family=Oswald:wght@500&family=Rampart+One&family=Rubik+Iso&family=Shantell+Sans:wght@300;400&family=Tilt+Prism&display=swap');
+
+nav {
+    display: flex;
+    width: 100%;
+   
+   position: sticky;
+   
+    margin-left: 0;
+    margin-bottom: 0;
+    align-items: center;
+    /*to get distance b/w logo and list*/
+    justify-content: space-between;
+    background-color: black;
+    
+
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    /*10 for top and bottom,20 for left nd right*/
+    margin: 10px 20px;
+   
+
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: rgb(255, 89, 0);
+}
+.row{
+    width: 100%;
+    height: 450px;
+    border: 2px solid;
+    position: absolute;
+    margin-top: 0;
+    
+    background-image: url(img/homemade.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+}
+ h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    
+}
+.col img{
+    
+    margin-top: -200px;
+}
+
+
+
+#mainhd{
+    font-family: 'Oswald', sans-serif;
+    color: blanchedalmond;
+    margin-top: 340px;
+    font-size: 80px;
+
+}
+.roww{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(251, 155, 0);
+    
+    position: absolute;
+    
+
+    margin-top: 425px;
+}
+.col{
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+
+img{
+    margin-left: 30px;
+    margin-top: 50px;
+    height: 375px;
+    width: 350px;
+}
+
+#div3{
+    margin-left: 800px;
+}
+.menu{
+    width: 100%;
+    height: 500px;
+    margin-top: -30px;
+    padding-right: 6px;
+    position: static;
+    background-color: black;
+    background-repeat: no-repeat;
+    
+}
+#menuhd{
+    margin-top: 900px;
+    font-size: 50px;
+    text-align: center;
+    color: beige;
+    padding: 20px;
+    font-family: 'Mynerve', cursive;
+}
+.menu p{
+   width: 100%;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(251, 155, 0) ;
+    font-family: 'Alkatra', cursive;
+}
+.submenu{
+    width: 25%;
+    height: 250px;
+    margin-right: 10px;
+    
+    
+    color: beige;
+    float: left;
+    background-color: rgb(162, 123, 6);
+}
+
+.food{
+    text-align: center;
+    color: brown;
+} 
+.orders{
+   display: grid;
+    grid-template-columns:repeat(3 , 1fr);
+  margin-right: 0;
+ 
+    
+    margin-top: -20px;
+    
+}
+.meg{
+    height: 250px;
+    width: 250px;
+    padding-left: 100px;
+   border-radius: 10px 10px 10px 10px;
+   
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+    
+}
+
+/*hover while clicking img*/
+.odr img:hover{
+    transform: scale(1.05);
+}
+
+.odr h4{
+    padding: 5px;
+    text-align: center;
+}
+.odr button{
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color:black;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+}
+.odr button:hover{
+    transform: scale(1.09);
+    background-color: yellowgreen;
+}
+.section{
+    background-color: black;
+}
+.odr{
+    background-color:rgb(251, 155, 0);
+    background-size: cover;
+    padding-right: 6px;
+    
+}
+.footer{
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    margin-bottom: 100px;
+    padding: 1px 1px;
+    
+    margin-top: -5px;
+}
+.footer img{
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+   
+    
+}
+
+
+
+*{
+    margin: 0;
+    
+}
+.foot{
+   background-image: url(./img/brown-wooden-textured-flooring-background.jpg);
+    width: 100%;
+    height: 600px;
+    
+}
+#footp{
+    color:white;
+    font-family: 'Shantell Sans', cursive;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+#contact{
+    color: white;
+    margin-top: 50px;
+}
+.icondiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#font{
+    color: white;
+   
+    padding: 8px;
+    margin-top: 8px;
+    
+   
+}
+
+.foot i:hover{
+    transform: scale(1.25);
+    
+
+}
+
+.copy{
+    margin-top: -35px;
+    font-weight: bold;
+    
+}
+.copy p{
+    color: white;
+    margin-top: 1rem;
+}
+.uparrow{
+    float: right;
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 80%;
+    /*give flex to place arrow inside circle*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 2rem;
+    background-color: grey;
+    
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+@media only screen and (min-width: 700px) {
+    .innerfood1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 70px;
+        color: white;
+        text-align: center;
+    
+    }
+    }
+    
+    .innerfood2 h4{
+        color:rgb(251, 155, 0) ;
+        margin-top: 20px;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+
+    }
+    
+   
+    
+    
+    @media only screen and (min-width: 700px) {
+    .innerfood2{
+        
+       margin: 5px;
+
+    }
+    }
+    
+    @media only screen and (min-width: 700px) {
+    .innerfood2 img{
+        margin-top: 10px;
+        
+    
+    }
+    }
+    
+    
+    @media only screen and (min-width: 768px) {
+    .flip-box {
+        background-color: transparent;
+        width: 300px;
+        height: 200px;
+        
+        perspective: 1000px; /* Remove this if you don't want the 3D effect */
+      }
+    }
+    
+      
+      /* This container is needed to position the front and back side */
+      @media only screen and (min-width: 768px) {
+      .flip-box-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+      }
+    }
+    
+      
+      /* Do an horizontal flip when you move the mouse over the flip box container */
+      @media only screen and (min-width: 768px) {
+      .flip-box:hover .flip-box-inner {
+        transform: rotateY(180deg);
+      }
+    }
+      
+      /* Position the front and back side */
+      @media only screen and (min-width: 768px) {
+      .flip-box-front, .flip-box-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden; /* Safari */
+        backface-visibility: hidden;
+      }
+    }
+      
+      /* Style the front side (fallback if image is missing) */
+      @media only screen and (min-width: 768px) {
+      .flip-box-front {
+        
+        color: black;
+      }
+    }
+    /* responsive*/
+    
+@media screen and (max-width:1000px) {
+    .orders{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .orders{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
+@media screen and (max-width:1000px) {
+    .row h1{
+        font-size: 160px;
+       
+    }
+    .roww h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .roww{
+        width: 100%;
+    }
+    .roww #div2 img{
+        margin-left: 15px;
+        margin-right: 20px;
+    margin-top: 25px;
+    height: 187px;
+    width: 150px;
+
+    }
+    .roww #div3 img{
+        
+        margin-left:-250px; 
+        margin-right: 15px;
+        margin-top: -200px;
+        height: 187px;
+        width: 150px;
+
+    }
+    .innerfood2 h4{
+        margin-top: 10px;
+    }
+
+    
+}
+@media screen and (max-width:768px){
+    .row h1{
+        font-size: 80px;
+       
+    }
+    .roww h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .roww{
+        width: 100%;
+    }
+    .roww #div2 img{
+        margin-left: 7.5px;
+        margin-right: 10px;
+    margin-top: 12.5px;
+    height: 187px;
+    width: 150px;
+
+    }
+    .roww #div3 img{
+        
+        margin-left:-500px; 
+        margin-right: 7.5px;
+        margin-top: -400px;
+        height: 187px;
+        width: 150px;
+
+    }
+    .innerfood2 h4{
+        margin-top: 5px;
+        text-align: center;
+    }
+    .innerfood2 img{
+        align-items: center;
+        
+    }
+    
+    
+}
